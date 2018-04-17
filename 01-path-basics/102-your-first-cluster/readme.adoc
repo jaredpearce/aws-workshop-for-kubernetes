@@ -125,7 +125,7 @@ Your output may differ slightly from the one shown here based up on the type of 
 
 == Kubernetes Cluster Context
 
-You can manage multiple Kubernetes clusters with _kubectl_, the Kubernetes CLI. We will look more deeply at kubectl in the next section. The configuration for each cluster is stored in a configuration file, referred to as the "`kubeconfig file`". By default, kubectl looks for a file named `config` in the directory `~/.kube`. The kubectl CLI uses kubeconfig file to find the information it needs to choose a cluster and communicate with the API server of a cluster.
+You can manage multiple Kubernetes clusters with _kubectl_, the Kubernetes CLI. We will look more deeply at kubectl in the **next** section. The configuration for each cluster is stored in a configuration file, referred to as the "`kubeconfig file`". By default, kubectl looks for a file named `config` in the directory `~/.kube`. The kubectl CLI uses kubeconfig file to find the information it needs to choose a cluster and communicate with the API server of a cluster.
 
 This allows you to deploy your applications to different environments by just changing the context. For example, here is a typical flow for application development:
 
@@ -154,7 +154,7 @@ If multiple clusters exist, then you can change the context:
 
   $ kubectl config use-context <config-name>
 
-You are now ready to continue on with the workshop!
+**You are now ready to continue on with the workshop!**
 
 :frame: none
 :grid: none
